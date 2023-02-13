@@ -1,0 +1,24 @@
+RPG textuel interactif dans la peau d'un tdah type "livre dont vous êtes le héros".
+
+Jeudi 09.02.2023
+
+1/ Schémas UML avec les possibilités pour le joueur, l'interactivité possible, les fonctions en front et en back
+attendues et les schémas logiques pour avoir une vision la plus exhaustive possible de ce qu'il y a à faire. 
+
+3 personnages possibles. 3 fins différentes (1 par perso). 3 histoires de vie différentes calquées sur des éléments
+de RPG med/fan mais aussi sur des éléments réels des difficultées rencontrées par les tdah. 
+Il y aura des combats au tour par tour classique comme un adversaire exterieur à affronter mais aussi des combats
+un peu plus originaux "contre soi même". 
+
+La partie front comprendra les zones de dialogue, un titre, différents boutons interactif, un inventaire interactif
+une zone de connexion mais non obligatoire pour jouer (mais partie du joueur pas sauvegardée sans connection).
+2 pages différentes, la page principale avec le jeu qui est celle sur lequel le joueur arrive par défaut et une 
+page avec des informations sur le tdah.
+
+Possibilité de choix multiples qui amènent à des "cul de sac" ?
+
+2/ Mise en place de la base de donnée. Pas de sur de pouvoir réaliser la gestion de la sauvegarde. Choix du SQL plutot que 
+no sql car relations complexes
+
+
+
