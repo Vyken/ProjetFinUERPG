@@ -20,8 +20,9 @@ class ApiController extends AbstractController
  *
  * @param HttpClientInterface $httpClient
  * @return JsonResponse
+ * 
  */
-#[Route('/api/test/ennemis', name: 'handle_api', methods: 'GET')]
+#[Route('/', name: 'handle_api', methods: 'GET')]
         public function getApiData(HttpClientInterface $httpClient): JsonResponse
 {
     $response = $httpClient->request(
