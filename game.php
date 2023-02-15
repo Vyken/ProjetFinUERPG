@@ -1,6 +1,7 @@
 <?php
 
-//Sert de test à mes fonctions.
+//Sert de test à mes fonctions attack et spell.
+
 require_once('vendor/autoload.php');
 
 use App\Entity\Ennemi;
@@ -27,13 +28,7 @@ $Ken->spell($scan, $gobelin);
 dump($gobelin);
 dump($Ken);
 
-function Fight(Personnage $perso, Ennemi $ennemi) {
-    while( $perso->getHealth() >=0 or $ennemi->getHealth() >=0 ) {
-        echo ("Vous êtes attaqué. Que faire ?");
 
-    };
-
-}
 
 
 
