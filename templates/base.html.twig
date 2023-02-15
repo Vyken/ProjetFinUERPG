@@ -21,8 +21,12 @@
             {% include "private/_header.html.twig" %}
         {% endblock %}
 
-        {% block body %}
-        
+        {% block right %}
+            {% include "private/_right.html.twig" %}
         {% endblock %}
+     
+        {% block body %}
+        {% endblock %}
+
     </body>
 </html>
